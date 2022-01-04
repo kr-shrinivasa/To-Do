@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/index.css"> -->
+    <link rel="stylesheet" href="index.css">
+
+
+    <script src="index.js" defer></script>
+    <script src="./to_do.js" defer></script>
+    <script src="./random colour.js" defer></script>
+
+  
+</head>
+<body>
+    <header class="header">
+        <nav class= "nav container">
+            <h1>web pract</h1>
+            <ul class="nav-items">
+                <li class="nav-itm"><a href="#home">Home</a></li>
+                <li class="nav-itm"><a href="">Todo</a></li>
+                <li class="nav-itm"><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">manege your life <span>one more</span></h2>
+            <button class="btn btn-headline"  >learn more</button>
+        </div>
+    </header>
+
+    <section class="todo-section container">
+        <h1>your plans for today</h1>
+        <form class="form-todo">
+            <input type="text" placeholder="add todo" required>
+            <input type="submit" value="Add Todo" class="btn">
+        </form>
+        <ul class="todo-list">
+            <li>
+                <span class="text">Do This Do That</span>
+                <div>
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+        <div class="my-button">
+            <button id="one" class="btn btn-headline">button 1</button>
+            <button class="btn btn-headline">button 2</button>
+            <button class="btn btn-headline">button 3</button>
+            <button class="btn btn-headline">button 4</button>
+        </div>
+    
+
+    </section>
+    <section class="random container">
+        <div class="boxing">
+            <h1> current colour:<span class="box">rgb(255,255,255)</span> </h1>
+            <button class="btn btn-headline " id="change">stop r start</button>
+        </div>
+
+    </section>
+    <!-- event bubling   -->
+    <section class="events ">
+        <div class="grandparent boxes">
+            grandparent
+            <div class="parent boxes">
+                parent
+                <div class="child boxes">child</div>
+            </div> 
+        </div>
+    </section>
+    <section class="sec-signup container">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="form-group">
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="text" name="confirmpassword" id="confirmpassword">
+            </div>
+            <div class="form-group">
+                <label for="Phone">Phone</label>
+                <input type="text" name="Phone" id="Phone">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="text" name="Email" id="Email">
+            </div>
+            <div class="form-group">
+                <label for="About">About Yourself</label>
+                <textarea name="About" id="About" cols="30" rows="10"></textarea>
+            </div>    
+        </form>
+        <button type="submit" class="btn btn-signup form-group">submit</button>
+    </section>
+    <!-- <script src="/22_closures.js"></script>// -->
+
+    <section id="callbacks" class="container">
+        <h1 class="heading1">hellow world</h1>
+        <h1 class="heading2">hellow world</h1>
+        <h1 class="heading3">hellow world</h1>
+        <h1 class="heading4">hellow world</h1>
+        <h1 class="heading5">hellow world</h1>
+        <h1 class="heading6">hellow world</h1>
+        <h1 class="heading7">hellow world</h1>
+    </section>
+</body>
+</html>
+
